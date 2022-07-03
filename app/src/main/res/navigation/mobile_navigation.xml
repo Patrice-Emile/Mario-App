@@ -14,15 +14,15 @@
     </fragment>
 
     <fragment
-            android:id="@+id/navigation_bookmark"
-            android:name="com.example.app.ui.pages.bookmark.BookmarkFragment"
-            android:label="@string/titleBookmark"
+            android:id="@+id/navigation_platform"
+            android:name="com.example.app.ui.pages.platforms.PlatformFragment"
+            android:label="@string/titleCharacters"
             tools:layout="@layout/fragment_bookmark" />
     <fragment
-            android:id="@+id/navigation_search"
-            android:name="com.example.app.ui.pages.search.SearchFragment"
-            android:label="@string/titleSearch"
-            tools:layout="@layout/fragment_search" />
+            android:id="@+id/navigation_character"
+            android:name="com.example.app.ui.pages.characters.CharactersFragment"
+            android:label="@string/titlePlatforms"
+            tools:layout="@layout/fragment_chararcters" />
 
 
 </navigation>

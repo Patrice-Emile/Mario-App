@@ -6,16 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import app.databinding.FragmentHomeBinding
-import com.example.app.ui.LIST_ALL_GAME
 import com.example.app.ui.adaptaters.GameAdapter
 import com.example.app.ui.api.getAllGames
 
 /**
  * Fragment Home page
  *
- * Show all product available and all popular product
+ * Show all game available
  */
 class HomeFragment : Fragment() {
 
@@ -37,7 +35,7 @@ class HomeFragment : Fragment() {
 
         getAllGames().observe(viewLifecycleOwner) {
             binding.recyclerViewWhatIsUp.apply {
-                layoutManager = GridLayoutManager(context, 2)
+                layoutManager = GridLayoutManager(context, 3)
                 adapter = GameAdapter(it)
             }
         }

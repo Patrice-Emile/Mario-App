@@ -1,4 +1,4 @@
-package com.example.app.ui.pages.bookmark
+package com.example.app.ui.pages.platforms
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import app.databinding.FragmentBookmarkBinding
-import app.databinding.FragmentHomeBinding
-import com.example.app.ui.adaptaters.GameAdapter
 import com.example.app.ui.adaptaters.PlatformsAdapter
-import com.example.app.ui.api.getAllGames
 import com.example.app.ui.api.getAllPlatforms
 
 /**
@@ -18,7 +15,7 @@ import com.example.app.ui.api.getAllPlatforms
  *
  * Show all the favourite user product
  */
-class BookmarkFragment : Fragment() {
+class PlatformFragment : Fragment() {
     // Link this activity to the view xml
     private var _binding: FragmentBookmarkBinding? = null
 

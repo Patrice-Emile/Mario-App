@@ -1,17 +1,12 @@
 package com.example.app.ui.adaptaters
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import app.R
-import com.example.app.ui.GAME_ID_EXTRA
-import com.example.app.ui.PLATFORM_ID_EXTRA
 import com.example.app.ui.api.models.Platforms
-import com.example.app.ui.pages.home.GameDetailActivity
 
 
 /**
@@ -33,12 +28,6 @@ class PlatformsAdapter(listPlatforms: MutableList<Platforms>) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.itemView.setOnClickListener {
-            val intent = Intent(holder.itemView.context, GameDetailActivity::class.java)
-            intent.putExtra(PLATFORM_ID_EXTRA, listPlatforms[position])
-            holder.itemView.context.startActivity(intent)
-        }
-
         return holder.bind(listPlatforms[position])
     }
 

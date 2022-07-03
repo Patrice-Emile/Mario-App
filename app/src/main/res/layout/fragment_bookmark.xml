@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="100dp"
-        tools:context="com.example.app.ui.pages.bookmark.BookmarkFragment">
+        tools:context="com.example.app.ui.pages.platforms.PlatformFragment">
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -28,7 +28,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="16dp"
-            android:text="Vos favoris" />
+            android:text="Toutes les consoles" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

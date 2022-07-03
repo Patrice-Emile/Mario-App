@@ -4,7 +4,7 @@ import java.io.Serializable
 
 
 /**
- * Meaning of a game
+ * Meaning of a Platform
  */
 data class Platforms (
     val id: String?,

@@ -3,18 +3,18 @@
 
     <item
             android:id="@+id/navigation_home"
-            android:icon="@drawable/ic_back"
+            android:icon="@drawable/mario"
             android:title="@string/titleHome" />
 
     <item
-            android:id="@+id/navigation_search"
-            android:icon="@drawable/ic_back"
-            android:title="@string/titleSearch" />
+            android:id="@+id/navigation_character"
+            android:icon="@drawable/champi"
+            android:title="@string/titleCharacters" />
 
     <item
-            android:id="@+id/navigation_bookmark"
-            android:icon="@drawable/ic_back"
-            android:title="@string/titleBookmark" />
+            android:id="@+id/navigation_platform"
+            android:icon="@drawable/piece"
+            android:title="@string/titlePlatforms" />
 
 
 </menu>

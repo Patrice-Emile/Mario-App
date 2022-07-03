@@ -25,7 +25,6 @@
         </activity>
 
         <activity android:name="com.example.app.ui.pages.home.GameDetailActivity" />
-        <activity android:name="com.example.app.ui.pages.search.ResultSearchActivity" />
         <meta-data
                 android:name="preloaded_fonts"
                 android:resource="@array/preloaded_fonts" />
